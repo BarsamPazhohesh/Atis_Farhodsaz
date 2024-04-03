@@ -20,4 +20,11 @@ let Style = {
     // with:"10vh"
     margin: "0px 10px 0px 10px",
   },
+  div_style: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-around",
+    borderBottom: "3px solid black",
+    paddingBottom: "10px",
+  },
 };
