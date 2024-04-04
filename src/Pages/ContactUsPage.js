@@ -4,6 +4,7 @@ import Header from "../Header";
 import { Style } from "./MainPage";
 //#endregion
 
+//#region ContactUsPage function
 function ContactUsPage() {
   return (
     <div style={Style.main_style}>
@@ -13,5 +14,6 @@ function ContactUsPage() {
     </div>
   );
 }
+//#endregion
 
 export default ContactUsPage;
