@@ -1,5 +1,6 @@
 import React from "react";
 
+//#region Footer function
 function Footer() {
   return (
     <div style={Style.main_style}>
@@ -9,6 +10,7 @@ function Footer() {
     </div>
   );
 }
+//#endregion
 
 export default Footer;
 
