@@ -3,6 +3,7 @@ import Footer from "../Footer";
 import Header from "../Header";
 //#endregion
 
+//#region MainPage function
 function MainPage() {
   return (
     <div style={Style.main_style}>
@@ -12,6 +13,7 @@ function MainPage() {
     </div>
   );
 }
+//#endregion
 
 export default MainPage;
 
