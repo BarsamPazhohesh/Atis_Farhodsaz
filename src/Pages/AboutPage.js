@@ -1,6 +1,8 @@
+//#region Dependencies
 import Footer from "../Footer";
 import Header from "../Header";
 import { Style } from "./MainPage";
+//#endregion
 
 function AboutPage() {
   return (
