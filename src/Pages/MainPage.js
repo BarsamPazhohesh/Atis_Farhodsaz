@@ -17,6 +17,7 @@ function MainPage() {
 
 export default MainPage;
 
+//#region Style object
 export let Style = {
   main_style: {
     display: "flex",
@@ -25,3 +26,4 @@ export let Style = {
     height: "98vh",
   },
 };
+//#endregion
