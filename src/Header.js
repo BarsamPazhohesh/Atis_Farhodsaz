@@ -1,5 +1,6 @@
 import React from "react";
 
+//#region Header function
 function Header() {
   return (
     <div style={Style.div_style}>
@@ -10,6 +11,7 @@ function Header() {
     </div>
   );
 }
+//#endregion
 
 export default Header;
 
