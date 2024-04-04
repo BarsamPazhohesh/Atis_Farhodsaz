@@ -4,6 +4,7 @@ import Header from "../Header";
 import { Style } from "./MainPage";
 //#endregion
 
+//#region RulesPage function
 function RulesPage() {
   return (
     <div style={Style.main_style}>
@@ -13,5 +14,6 @@ function RulesPage() {
     </div>
   );
 }
+//#endregion
 
 export default RulesPage;
