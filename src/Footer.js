@@ -14,6 +14,7 @@ function Footer() {
 
 export default Footer;
 
+//#region Style object
 let Style = {
   div_style: {
     backgroundColor: "Gray",
@@ -31,3 +32,4 @@ let Style = {
     borderTop: "3px solid black",
   },
 };
+//#endregion
