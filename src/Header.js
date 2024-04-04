@@ -15,6 +15,7 @@ function Header() {
 
 export default Header;
 
+//#region Style object
 let Style = {
   Label_style: {
     backgroundColor: "greenyellow",
@@ -31,3 +32,4 @@ let Style = {
     paddingBottom: "10px",
   },
 };
+//#endregion
