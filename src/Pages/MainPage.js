@@ -1,5 +1,7 @@
+//#region Dependencies
 import Footer from "../Footer";
 import Header from "../Header";
+//#endregion
 
 function MainPage() {
   return (
