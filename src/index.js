@@ -10,6 +10,10 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+          <Route index element={<MainPage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="contact" element={<ContactUsPage />} />
+          <Route path="rules" element={<RulesPage />} />
       </Routes>
     </BrowserRouter>
   );
