@@ -17,6 +17,8 @@ function Header() {
       <Link to="/contact" style={Style.link_style}>
         <label style={Style.Label_style}>تماس با ما</label>
       </Link>
+
+      <Outlet />
     </div>
   );
 }
