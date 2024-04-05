@@ -9,6 +9,14 @@ function Header() {
       <label style={Style.Label_style}>درباره سایت</label>
       <label style={Style.Label_style}>قوانین و مقررات سایت</label>
       <label style={Style.Label_style}>تماس با ما</label>
+      <Link to="/" style={Style.link_style}>
+      </Link>
+      <Link to="/about" style={Style.link_style}>
+      </Link>
+      <Link to="/rules" style={Style.link_style}>
+      </Link>
+      <Link to="/contact" style={Style.link_style}>
+      </Link>
     </div>
   );
 }
