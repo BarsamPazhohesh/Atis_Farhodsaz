@@ -5,17 +5,17 @@ import { Outlet, Link } from "react-router-dom";
 function Header() {
   return (
     <div style={Style.div_style}>
-      <label style={Style.Label_style}>صفحه اصلی</label>
-      <label style={Style.Label_style}>درباره سایت</label>
-      <label style={Style.Label_style}>قوانین و مقررات سایت</label>
-      <label style={Style.Label_style}>تماس با ما</label>
       <Link to="/" style={Style.link_style}>
+        <label style={Style.Label_style}>صفحه اصلی</label>
       </Link>
       <Link to="/about" style={Style.link_style}>
+        <label style={Style.Label_style}>درباره سایت</label>
       </Link>
       <Link to="/rules" style={Style.link_style}>
+        <label style={Style.Label_style}>قوانین و مقررات سایت</label>
       </Link>
       <Link to="/contact" style={Style.link_style}>
+        <label style={Style.Label_style}>تماس با ما</label>
       </Link>
     </div>
   );
