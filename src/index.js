@@ -6,3 +6,8 @@ import ContactUsPage from "./Pages/ContactUsPage";
 import RulesPage from "./Pages/RulesPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+export default function App() {
+  return (
+  );
+}
+
