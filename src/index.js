@@ -6,9 +6,3 @@ import ContactUsPage from "./Pages/ContactUsPage";
 import RulesPage from "./Pages/RulesPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Header />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
