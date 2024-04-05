@@ -40,7 +40,13 @@ let Style = {
     flexDirection: "row",
     justifyContent: "space-around",
     borderBottom: "3px solid black",
-    paddingBottom: "10px",
+    paddingBottom: "20px",
+    margin: "10px",
+  },
+  link_style: {
+    textDecorationLine: "none",
+    textDecorationColor: "black",
+    color: "black",
   },
 };
 //#endregion
