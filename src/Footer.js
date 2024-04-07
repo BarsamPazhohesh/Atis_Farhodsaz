@@ -4,6 +4,26 @@ import React from "react";
 function Footer() {
   return (
     <div style={Style.main_style}>
+      <div class="w3-card-4">
+        {/* <img src="img_snowtops.jpg" alt="Alps"> */}
+        <div class="w3-container w3-center">
+          <p>ICON</p>
+        </div>
+      </div>
+
+      <div class="w3-card-4">
+        {/* <img src="img_snowtops.jpg" alt="Alps"> */}
+        <div class="w3-container w3-center">
+          <p>ICON</p>
+        </div>
+      </div>
+
+      <div class="w3-card-4">
+        {/* <img src="img_snowtops.jpg" alt="Alps"> */}
+        <div class="w3-container w3-center">
+          <p>ICON</p>
+        </div>
+      </div>
     </div>
   );
 }
