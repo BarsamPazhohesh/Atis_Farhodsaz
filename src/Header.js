@@ -29,7 +29,7 @@ export default Header;
 //#region Style object
 let Style = {
   Label_style: {
-    backgroundColor: "greenyellow",
+    // backgroundColor: "greenyellow",
     padding: "10px",
     borderRadius: "10px",
     // with:"10vh"
