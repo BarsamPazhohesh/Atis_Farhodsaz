@@ -34,6 +34,7 @@ let Style = {
     borderRadius: "10px",
     // with:"10vh"
     margin: "0px 10px 0px 10px",
+    fontSize: "2.5vh",
   },
   div_style: {
     display: "flex",
