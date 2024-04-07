@@ -4,9 +4,6 @@ import React from "react";
 function Footer() {
   return (
     <div style={Style.main_style}>
-      <div style={Style.div_style}></div>
-      <div style={Style.div_style}></div>
-      <div style={Style.div_style}></div>
     </div>
   );
 }
