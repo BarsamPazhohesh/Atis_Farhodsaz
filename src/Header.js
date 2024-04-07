@@ -4,17 +4,17 @@ import { Outlet, Link } from "react-router-dom";
 //#region Header function
 function Header() {
   return (
-    <div style={Style.div_style}>
-      <Link to="/" style={Style.link_style}>
+    <div class="w3-bar w3-black">
+      <Link to="/" class="w3-bar-item w3-button w3-mobile">
         <label style={Style.Label_style}>صفحه اصلی</label>
       </Link>
-      <Link to="/about" style={Style.link_style}>
+      <Link to="/about" class="w3-bar-item w3-button w3-mobile">
         <label style={Style.Label_style}>درباره سایت</label>
       </Link>
-      <Link to="/rules" style={Style.link_style}>
+      <Link to="/rules" class="w3-bar-item w3-button w3-mobile">
         <label style={Style.Label_style}>قوانین و مقررات سایت</label>
       </Link>
-      <Link to="/contact" style={Style.link_style}>
+      <Link to="/contact" class="w3-bar-item w3-button w3-mobile">
         <label style={Style.Label_style}>تماس با ما</label>
       </Link>
 
