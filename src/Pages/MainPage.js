@@ -14,6 +14,10 @@ function MainPage() {
         <Header />
         <div style={{ marginTop: "10px" }} class="w3-container">
           <img src={topImage} class="w3-round" alt="Norway" />
+          <p style={{ fontSize: "3vh" }}>
+            کلیه حقوق سایت متعلق است به اداره کل راهداری و حمل و نقل جاده ای
+            استان اصفهان
+          </p>
         </div>
         <Footer />
       </div>
