@@ -34,7 +34,8 @@ export let Style = {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    height: "98vh",
+    // height: "100%",
+    textAlign: "center",
   },
 };
 //#endregion
