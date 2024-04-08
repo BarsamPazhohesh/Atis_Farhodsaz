@@ -10,6 +10,8 @@ import topImage from "./Header4.jpg";
 function MainPage() {
   return (
     <>
+      <div style={Style.main_style} class="w3-display-container w3-mobile">
+      </div>
     </>
   );
 }
