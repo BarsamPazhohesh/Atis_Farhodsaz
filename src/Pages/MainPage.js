@@ -9,11 +9,6 @@ import topImage from "./Header4.jpg";
 //#region MainPage function
 function MainPage() {
   return (
-    <div style={Style.main_style}>
-      <Header />
-      <p>This is main page</p>
-      <Footer />
-    </div>
   );
 }
 //#endregion
