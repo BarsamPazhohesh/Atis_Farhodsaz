@@ -2,16 +2,26 @@
 import React from "react";
 import Footer from "../Footer";
 import Header from "../Header";
+import topImage from "./Header4.jpg";
+
 //#endregion
 
 //#region MainPage function
 function MainPage() {
   return (
-    <div style={Style.main_style}>
-      <Header />
-      <p>This is main page</p>
-      <Footer />
-    </div>
+    <>
+      <div style={Style.main_style} class="w3-display-container w3-mobile">
+        <Header />
+        <div style={{ marginTop: "10px" }} class="w3-container">
+          <img src={topImage} class="w3-round" alt="Norway" />
+          <p style={{ fontSize: "3vh" }}>
+            کلیه حقوق سایت متعلق است به اداره کل راهداری و حمل و نقل جاده ای
+            استان اصفهان
+          </p>
+        </div>
+        <Footer />
+      </div>
+    </>
   );
 }
 //#endregion
@@ -24,7 +34,8 @@ export let Style = {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    height: "98vh",
+    // height: "100%",
+    textAlign: "center",
   },
 };
 //#endregion
