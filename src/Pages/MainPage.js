@@ -9,6 +9,8 @@ import topImage from "./Header4.jpg";
 //#region MainPage function
 function MainPage() {
   return (
+    <>
+    </>
   );
 }
 //#endregion
