@@ -12,6 +12,8 @@ function MainPage() {
     <>
       <div style={Style.main_style} class="w3-display-container w3-mobile">
         <Header />
+        <div style={{ marginTop: "10px" }} class="w3-container">
+        </div>
         <Footer />
       </div>
     </>
