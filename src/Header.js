@@ -1,5 +1,7 @@
+//#region Dependencies
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+//#endregion
 
 //#region Header function
 function Header() {
