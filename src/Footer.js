@@ -12,9 +12,21 @@ function Footer() {
       </div>
 
       <div class="w3-card-4">
-        {/* <img src="img_snowtops.jpg" alt="Alps"> */}
         <div class="w3-container w3-center">
-          <p>ICON</p>
+          <div>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://trustseal.enamad.ir/?id=444939&Code=zNv5Xe9LoS7uGvf1GLLIIcDIMbY1o2Qc"
+            >
+              <img
+                src="https://trustseal.enamad.ir/logo.aspx?id=444939&Code=zNv5Xe9LoS7uGvf1GLLIIcDIMbY1o2Qc"
+                alt=""
+                style={{ cursor: "pointer" }}
+                code="zNv5Xe9LoS7uGvf1GLLIIcDIMbY1o2Qc"
+              />
+            </a>
+          </div>
         </div>
       </div>
 
@@ -24,6 +36,11 @@ function Footer() {
           <p>ICON</p>
         </div>
       </div>
+
+      <p>
+        کلیه حقوق سایت متعلق است به اداره کل راهداری و حمل و نقل جاده ای استان
+        اصفهان
+      </p>
     </div>
   );
 }
