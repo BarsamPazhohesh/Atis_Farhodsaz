@@ -1,0 +1,11 @@
+html {
+  padding: 1.5vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("./Pages/Images/3520962.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
