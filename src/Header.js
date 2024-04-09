@@ -31,28 +31,7 @@ function Header() {
 
 export default Header;
 
-//#region Style object
-let Style = {
-  Label_style: {
-    // backgroundColor: "greenyellow",
-    padding: "10px",
-    borderRadius: "10px",
-    // with:"10vh"
-    margin: "0px 10px 0px 10px",
-    fontSize: "2.5vh",
-  },
-  div_style: {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "space-around",
-    borderBottom: "3px solid black",
-    paddingBottom: "20px",
-    margin: "10px",
-  },
-  link_style: {
-    textDecorationLine: "none",
-    textDecorationColor: "black",
-    color: "black",
-  },
+let ClassNames = {
+  MainDiv: "w3-bar w3-black w3-mobile w3-border w3-card-4 w3-round-xxlarge w3-margin-bottom w3-large",
+  Link: "w3-bar-item w3-button w3-mobile w3-right w3-hover-white w3-ripple",
 };
-//#endregion
