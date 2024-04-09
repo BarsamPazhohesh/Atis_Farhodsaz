@@ -6,9 +6,9 @@ import { Outlet, Link } from "react-router-dom";
 //#region Header function
 function Header() {
   return (
-    <div class="w3-bar w3-black">
-      <Link to="/" class="w3-bar-item w3-button w3-mobile">
-        <label style={Style.Label_style}>صفحه اصلی</label>
+    <div className={ClassNames.MainDiv}>
+      <Link to="/" className={ClassNames.Link}>
+        <label>صفحه اصلی</label>
       </Link>
       <Link to="/about" class="w3-bar-item w3-button w3-mobile">
         <label style={Style.Label_style}>درباره سایت</label>
