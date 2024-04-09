@@ -13,11 +13,14 @@ function Header() {
       <Link to="#" className={ClassNames.Link}>
         <label>آتیس وب</label>
       </Link>
-      <Link to="/rules" class="w3-bar-item w3-button w3-mobile">
-        <label style={Style.Label_style}>قوانین و مقررات سایت</label>
+      <Link to="/about" className={ClassNames.Link}>
+        <label>درباره سایت</label>
       </Link>
-      <Link to="/contact" class="w3-bar-item w3-button w3-mobile">
-        <label style={Style.Label_style}>تماس با ما</label>
+      <Link to="/rules" className={ClassNames.Link}>
+        <label>قوانین و مقررات سایت</label>
+      </Link>
+      <Link to="/contact" className={ClassNames.Link}>
+        <label>تماس با ما</label>
       </Link>
 
       <Outlet />
