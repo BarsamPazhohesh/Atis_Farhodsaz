@@ -10,8 +10,8 @@ function Header() {
       <Link to="/" className={ClassNames.Link}>
         <label>صفحه اصلی</label>
       </Link>
-      <Link to="/about" class="w3-bar-item w3-button w3-mobile">
-        <label style={Style.Label_style}>درباره سایت</label>
+      <Link to="#" className={ClassNames.Link}>
+        <label>آتیس وب</label>
       </Link>
       <Link to="/rules" class="w3-bar-item w3-button w3-mobile">
         <label style={Style.Label_style}>قوانین و مقررات سایت</label>
