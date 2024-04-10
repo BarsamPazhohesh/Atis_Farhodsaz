@@ -1,4 +1,7 @@
 import React from "react";
+import Header from "../Header";
+import Footer from "../Footer";
+import topImage from "./Images/Header4.jpg";
 
 function Page({ text, pageName }) {
 
