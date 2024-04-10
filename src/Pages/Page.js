@@ -38,6 +38,11 @@ function Page({ text, pageName }) {
     );
   }
 
+  function contactUsPageTager(x) {
+    // return <p className="w3-xlarge w3-mobile">{x}</p>;
+    return aboutPageTager(x);
+  }
+
   return (
     <div class="w3-display-container w3-mobile">
       <Header />
