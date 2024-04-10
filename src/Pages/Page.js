@@ -4,6 +4,9 @@ import Footer from "../Footer";
 import topImage from "./Images/Header4.jpg";
 
 function Page({ text, pageName }) {
+  //#region Functions
+
+  //#region rulesPageTager
   function rulesPageTager(x) {
     if (text.indexOf(x) % 2 === 0) {
       return (
@@ -19,7 +22,9 @@ function Page({ text, pageName }) {
       );
     }
   }
+  //#endregion
 
+  //#region aboutPageTager
   function aboutPageTager(x) {
     if (text.indexOf(x) === 0) {
       return (
@@ -37,11 +42,16 @@ function Page({ text, pageName }) {
       </p>
     );
   }
+  //#endregion
 
+  //#region contactUsPageTager
   function contactUsPageTager(x) {
     // return <p className="w3-xlarge w3-mobile">{x}</p>;
     return aboutPageTager(x);
   }
+  //#endregion
+
+  //#endregion
 
   return (
     <div class="w3-display-container w3-mobile">
