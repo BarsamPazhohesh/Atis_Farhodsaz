@@ -20,6 +20,24 @@ function Page({ text, pageName }) {
     }
   }
 
+  function aboutPageTager(x) {
+    if (text.indexOf(x) === 0) {
+      return (
+        <p
+          style={{ padding: "1vh", fontWeight: "bold" }}
+          className="w3-xlarge w3-mobile"
+        >
+          {x}
+        </p>
+      );
+    }
+    return (
+      <p style={{ padding: "1vh" }} className="w3-xlarge w3-mobile">
+        {x}
+      </p>
+    );
+  }
+
   return (
     <div class="w3-display-container w3-mobile">
       <Header />
