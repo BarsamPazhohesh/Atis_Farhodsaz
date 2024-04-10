@@ -4,6 +4,8 @@ function Page({ text, pageName }) {
 
   return (
     <div class="w3-display-container w3-mobile">
+      <Header />
+      <Footer />
     </div>
   );
 }
