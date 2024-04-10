@@ -12,8 +12,8 @@ function ContactUsPage() {
   return (
     <div style={Style.main_style}>
       <Header />
-      <div  style={{ marginTop: "10px" }} class="w3-container">
-      <img src={topImage} class="w3-round" alt="Norway" />
+      <div style={{ marginTop: "10px" }} class="w3-container">
+        <img src={topImage} class="w3-round" alt="Norway" />
         <h6 style={{ fontSize: "3vh" }}>
           روش های تماس با مدیریت و کارشناسان سامانه آتیس فرهود
         </h6>
