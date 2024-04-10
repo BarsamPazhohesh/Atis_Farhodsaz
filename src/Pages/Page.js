@@ -6,6 +6,12 @@ function Page({ text, pageName }) {
     <div class="w3-display-container w3-mobile">
       <Header />
       <div style={{ marginTop: "10px" }} className="w3-container  w3-center">
+        <img
+          style={{ width: "100%" }}
+          src={topImage}
+          class="w3-round"
+          alt="Norway"
+        />
       </div>
       <Footer />
     </div>
