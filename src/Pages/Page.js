@@ -4,6 +4,21 @@ import Footer from "../Footer";
 import topImage from "./Images/Header4.jpg";
 
 function Page({ text, pageName }) {
+  function rulesPageTager(x) {
+    if (text.indexOf(x) % 2 === 0) {
+      return (
+        <p style={{ margin: "1.5vh" }} className="w3-xxlarge">
+          {x}
+        </p>
+      );
+    } else {
+      return (
+        <p style={{ margin: "1vh", padding: "0px" }} className="w3-xlarge">
+          {x}
+        </p>
+      );
+    }
+  }
 
   return (
     <div class="w3-display-container w3-mobile">
