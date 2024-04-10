@@ -5,6 +5,8 @@ function Page({ text, pageName }) {
   return (
     <div class="w3-display-container w3-mobile">
       <Header />
+      <div style={{ marginTop: "10px" }} className="w3-container  w3-center">
+      </div>
       <Footer />
     </div>
   );
