@@ -14,6 +14,10 @@ function LoginPage() {
     >
       <Header />
 
+      <div style={{ alignSelf: "center" }} className={ClassNames.middleDiv}>
+        <form className={ClassNames.theForm}>
+        </form>
+      </div>
 
       <Footer />
     </div>
