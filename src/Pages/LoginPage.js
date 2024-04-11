@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "../Header";
+import Footer from "../Footer";
 
 function LoginPage() {
   return (
@@ -10,6 +12,10 @@ function LoginPage() {
         height: "97vh",
       }}
     >
+      <Header />
+
+
+      <Footer />
     </div>
   );
 }
