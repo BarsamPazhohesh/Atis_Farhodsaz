@@ -9,6 +9,9 @@ function LoginPage() {
       "w3-container w3-border w3-border-black  w3-pale-yellow w3-card-4 w3-round-xlarge w3-mobile",
     inputs: "w3-input w3-round-large w3-border w3-border-gray w3-bottombar",
     inputsLabels: "w3-large w3-right w3-margin-bottom",
+    checkboxLabel: "w3-large w3-margin-left w3-margin-bottom",
+    button:
+      "w3-large w3-button w3-section w3-teal w3-ripple w3-block w3-round-xxlarge",
   };
 
   let labelStyle = { fontWeight: "bold" };
