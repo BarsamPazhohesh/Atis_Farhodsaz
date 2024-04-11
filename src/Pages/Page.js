@@ -63,6 +63,15 @@ function Page({ text, pageName }) {
           class="w3-round"
           alt="Norway"
         />
+        {text.map((x) => {
+          if (pageName === "rulesPage") {
+            return rulesPageTager(x);
+          } else if (pageName === "aboutPage") {
+            return aboutPageTager(x);
+          } else if (pageName === "contactUsPage") {
+            return contactUsPageTager(x);
+          }
+        })}
       </div>
       <Footer />
     </div>
