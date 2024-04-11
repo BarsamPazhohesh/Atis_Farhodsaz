@@ -3,6 +3,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 
 function LoginPage() {
+  //#region Public variables
   let ClassNames = {
     middleDiv: "w3-container w3-half w3-margin-bottom w3-mobile",
     theForm:
@@ -15,6 +16,8 @@ function LoginPage() {
   };
 
   let labelStyle = { fontWeight: "bold" };
+  //#endregion
+
   return (
     <div
       style={{
