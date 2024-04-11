@@ -8,4 +8,5 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  min-height: 100%;
 }
