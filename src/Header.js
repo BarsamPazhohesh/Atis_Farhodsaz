@@ -10,7 +10,7 @@ function Header() {
       <Link to="/" className={ClassNames.Link}>
         <label>صفحه اصلی</label>
       </Link>
-      <Link to="#" className={ClassNames.Link}>
+      <Link to="/login" className={ClassNames.Link}>
         <label>آتیس وب</label>
       </Link>
       <Link to="/about" className={ClassNames.Link}>
