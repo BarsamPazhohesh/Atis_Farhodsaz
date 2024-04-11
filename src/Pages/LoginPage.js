@@ -22,6 +22,28 @@ function LoginPage() {
 
       <div style={{ alignSelf: "center" }} className={ClassNames.middleDiv}>
         <form className={ClassNames.theForm}>
+          <p>
+            <input
+              className={ClassNames.inputs}
+              type="text"
+              dir="rtl"
+              required
+            />
+            <label style={labelStyle} className={ClassNames.inputsLabels}>
+              شناسه کاربر
+            </label>
+          </p>
+          <p>
+            <input
+              className={ClassNames.inputs}
+              type="password"
+              dir="rtl"
+              required
+            />
+            <label style={labelStyle} className={ClassNames.inputsLabels}>
+              رمز عبور
+            </label>
+          </p>
         </form>
       </div>
 
