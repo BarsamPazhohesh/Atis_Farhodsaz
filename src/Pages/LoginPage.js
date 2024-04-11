@@ -47,6 +47,18 @@ function LoginPage() {
               رمز عبور
             </label>
           </p>
+
+          <p>
+            <input
+              id="milk"
+              className="w3-check"
+              type="checkbox"
+              checked="checked"
+            />
+            <label style={labelStyle} className={ClassNames.checkboxLabel}>
+              مرا به خاطر بسپار
+            </label>
+          </p>
         </form>
       </div>
 
