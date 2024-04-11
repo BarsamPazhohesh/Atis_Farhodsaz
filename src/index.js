@@ -7,6 +7,7 @@ import ContactUsPage from "./Pages/ContactUsPage";
 import RulesPage from "./Pages/RulesPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
+import LoginPage from "./Pages/LoginPage";
 //#endregion
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<MainPage />} />
+        <Route path="login" element={<LoginPage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="contact" element={<ContactUsPage />} />
         <Route path="rules" element={<RulesPage />} />
