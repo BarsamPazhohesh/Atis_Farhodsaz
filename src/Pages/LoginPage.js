@@ -62,6 +62,12 @@ function LoginPage() {
               مرا به خاطر بسپار
             </label>
           </p>
+
+          <p className="w3-center ">
+            <button style={labelStyle} className={ClassNames.button}>
+              ورود
+            </button>
+          </p>
         </form>
       </div>
 
