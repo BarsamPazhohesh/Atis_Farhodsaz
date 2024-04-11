@@ -7,8 +7,11 @@ function LoginPage() {
     middleDiv: "w3-container w3-half w3-margin-bottom w3-mobile",
     theForm:
       "w3-container w3-border w3-border-black  w3-pale-yellow w3-card-4 w3-round-xlarge w3-mobile",
+    inputs: "w3-input w3-round-large w3-border w3-border-gray w3-bottombar",
+    inputsLabels: "w3-large w3-right w3-margin-bottom",
   };
 
+  let labelStyle = { fontWeight: "bold" };
   return (
     <div
       style={{
