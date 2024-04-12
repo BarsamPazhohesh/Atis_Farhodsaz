@@ -17,9 +17,12 @@ function MainPage() {
         height: "97vh",
       }}
     >
+      <Header />
           </p>
         </div>
       </div>
+
+      <Footer />
   );
 }
 //#endregion
