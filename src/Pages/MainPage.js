@@ -32,6 +32,32 @@ function MainPage() {
             ارائه خدمات الکترونیک و اطلاع رسانی بار
           </p>
         </div>
+        <div className="w3-left w3-mobile w3-container">
+          <p
+            style={{ margin: "0px", fontWeight: "bold", fontFamily: "Georgia" }}
+            className="w3-center w3-xxxlarge"
+          >
+            ATIS
+          </p>
+          <p
+            style={{
+              margin: "0px",
+              fontWeight: "bold",
+              fontFamily: "Times New Roman",
+            }}
+            className="w3-center w3-margin-top w3-xlarge"
+          >
+            AmirKabir Transportation Information System
+          </p>
+          <p
+            style={{
+              margin: "0px",
+              textShadow:
+                "-2px 0 black, 0 2px black, 2px 0 black, 0 -2px black",
+            }}
+            className="w3-monospace w3-center w3-margin-top w3-xlarge w3-text-red"
+          >
+            Base On R2Primary System
           </p>
         </div>
       </div>
