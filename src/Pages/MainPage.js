@@ -12,7 +12,7 @@ function MainPage() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
-        height: "97vh",
+        minHeight: "97vh",
       }}
     >
       <Header />
