@@ -16,11 +16,14 @@ function MainPage() {
       }}
     >
       <Header />
+
+      <div>
           </p>
         </div>
       </div>
 
       <Footer />
+    </div>
   );
 }
 //#endregion
