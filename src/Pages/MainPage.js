@@ -1,9 +1,7 @@
 //#region Dependencies
 import React from "react";
-import Footer from "../Footer";
-import Header from "../Header";
-import topImage from "./Header4.jpg";
-
+import Header from "../Header.js";
+import Footer from "../Footer.js";
 //#endregion
 
 //#region MainPage function
