@@ -9,6 +9,14 @@ import topImage from "./Header4.jpg";
 //#region MainPage function
 function MainPage() {
   return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        height: "97vh",
+      }}
+    >
           </p>
         </div>
       </div>
