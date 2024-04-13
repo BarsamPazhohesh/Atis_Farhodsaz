@@ -1,4 +1,6 @@
+//#region Dependencies
 import React from "react";
+//#endregion
 
 //#region Footer function
 function Footer() {
