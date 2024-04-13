@@ -1,6 +1,8 @@
+//#region Dependencies
 import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
+//#endregion
 
 function LoginPage() {
   //#region Public variables
