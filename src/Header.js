@@ -5,6 +5,11 @@ import { Outlet, Link } from "react-router-dom";
 
 //#region Header function
 function Header() {
+  let ClassNames = {
+    MainDiv: "w3-bar w3-black w3-mobile w3-border w3-card-4 w3-round-xxlarge w3-margin-bottom w3-large",
+    Link: "w3-bar-item w3-button w3-mobile w3-right w3-hover-white w3-ripple",
+  };
+
   return (
     <div className={ClassNames.MainDiv}>
       <Link to="/" className={ClassNames.Link}>
@@ -31,7 +36,4 @@ function Header() {
 
 export default Header;
 
-let ClassNames = {
-  MainDiv: "w3-bar w3-black w3-mobile w3-border w3-card-4 w3-round-xxlarge w3-margin-bottom w3-large",
-  Link: "w3-bar-item w3-button w3-mobile w3-right w3-hover-white w3-ripple",
-};
+
