@@ -1,7 +1,6 @@
 //#region Dependencies
 import React from "react";
 import Page from "./Page";
-
 //#endregion
 
 //#region AboutPage function
