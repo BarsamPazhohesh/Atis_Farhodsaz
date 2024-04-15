@@ -5,17 +5,8 @@ import React from "react";
 //#region Footer function
 function Footer() {
   return (
-    <div style={Style.main_style}>
-      <div class="w3-card-4">
-        {/* <img src="img_snowtops.jpg" alt="Alps"> */}
-        <div class="w3-container w3-center">
-          <p>ICON</p>
-        </div>
-      </div>
-
       <div class="w3-card-4">
         <div class="w3-container w3-center">
-          <div>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -28,14 +19,6 @@ function Footer() {
                 code="zNv5Xe9LoS7uGvf1GLLIIcDIMbY1o2Qc"
               />
             </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="w3-card-4">
-        {/* <img src="img_snowtops.jpg" alt="Alps"> */}
-        <div class="w3-container w3-center">
-          <p>ICON</p>
         </div>
       </div>
 
