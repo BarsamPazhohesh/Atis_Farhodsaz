@@ -23,13 +23,14 @@ function MainPage() {
             style={{ margin: "0px", fontWeight: "bold" }}
             className="w3-center w3-xxxlarge"
           >
-            سامانه آتیس
+            سامانه آتیس فرهود
           </p>
           <p
             style={{ margin: "0px" }}
-            className="w3-center w3-margin-top w3-xxlarge"
+            className="w3-center w3-margin-top w3-xlarge"
           >
-            ارائه خدمات الکترونیک و اطلاع رسانی بار
+            طرح، نظارت و اجرا خدمات فنی، تاسیساتی، ساختمانی، پل سازی و تامین
+            نیروی انسانی
           </p>
         </div>
         <div className="w3-left w3-mobile w3-container">
@@ -37,7 +38,7 @@ function MainPage() {
             style={{ margin: "0px", fontWeight: "bold", fontFamily: "Georgia" }}
             className="w3-center w3-xxxlarge"
           >
-            ATIS
+            ATIS FARHOOD
           </p>
           <p
             style={{

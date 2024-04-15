@@ -1,12 +1,14 @@
+//#region Dependencies
 import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import topImage from "./Images/Header4.jpg";
+// #endregion
 
 function Page({ text, pageName }) {
   //#region Functions
 
-  //#region rulesPageTager
+    //#region rulesPageTager
   function rulesPageTager(x) {
     if (text.indexOf(x) % 2 === 0) {
       return (
@@ -24,7 +26,7 @@ function Page({ text, pageName }) {
   }
   //#endregion
 
-  //#region aboutPageTager
+    //#region aboutPageTager
   function aboutPageTager(x) {
     if (text.indexOf(x) === 0) {
       return (
@@ -44,7 +46,7 @@ function Page({ text, pageName }) {
   }
   //#endregion
 
-  //#region contactUsPageTager
+    //#region contactUsPageTager
   function contactUsPageTager(x) {
     // return <p className="w3-xlarge w3-mobile">{x}</p>;
     return aboutPageTager(x);
