@@ -46,6 +46,23 @@ public class Program
             }
             else
             {
+                string url = $"https://ATISMobile.ir:9095/MoneyWalletChargingMVC/PaymentVerification?authority={Authority}";
+
+                using (HttpClient client = new HttpClient())
+                {
+                    HttpResponseMessage response = await client.PostAsync(url, new StringContent(Authority));
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string content = await response.Content.ReadAsStringAsync();
+                        // Process the response content as needed
+                        Console.WriteLine(content);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Error: {response.StatusCode}");
+                    }
+                }
+
                 return Results.Ok();
             }
         });
