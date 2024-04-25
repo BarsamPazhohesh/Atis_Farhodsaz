@@ -66,6 +66,19 @@ public class Program
                 return Results.Ok();
             }
         });
+
+        app.MapPost("/test", (string authority) =>
+        {
+            if (string.IsNullOrEmpty(authority))
+            {
+                return Results.BadRequest();
+            }
+            else
+            {
+                return Results.Ok(authority);
+            }
+        });
+
         app.Run();
     }
 }
