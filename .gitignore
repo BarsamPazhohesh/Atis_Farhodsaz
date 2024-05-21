@@ -24,3 +24,4 @@ yarn-error.log*
 
 theApi/obj/
 theApi/bin/
+.gitignore
