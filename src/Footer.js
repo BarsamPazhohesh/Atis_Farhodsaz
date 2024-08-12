@@ -5,22 +5,24 @@ import React from "react";
 //#region Footer function
 function Footer() {
   return (
-      <div class="w3-card-4">
-        <div class="w3-container w3-center">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://trustseal.enamad.ir/?id=444939&Code=zNv5Xe9LoS7uGvf1GLLIIcDIMbY1o2Qc"
-            >
-              <img
-                src="https://trustseal.enamad.ir/logo.aspx?id=444939&Code=zNv5Xe9LoS7uGvf1GLLIIcDIMbY1o2Qc"
-                alt=""
-                style={{ cursor: "pointer" }}
-                code="zNv5Xe9LoS7uGvf1GLLIIcDIMbY1o2Qc"
-              />
-            </a>
-        </div>
+    <div class="w3-card-4">
+      <div class="w3-container w3-center">
+        <a
+          referrerpolicy="origin"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://trustseal.enamad.ir/?id=444939&Code=zNv5Xe9LoS7uGvf1GLLIIcDIMbY1o2Qc"
+        >
+          <img
+            referrerpolicy="origin"
+            src="https://trustseal.enamad.ir/logo.aspx?id=444939&Code=zNv5Xe9LoS7uGvf1GLLIIcDIMbY1o2Qc"
+            alt=""
+            style={{ cursor: "pointer" }}
+            code="OB9oTb3ioLlW5FV1Vhj2ZkvPvhTh0Pq5"
+          />
+        </a>
       </div>
+    </div>
   );
 }
 //#endregion
@@ -28,21 +30,5 @@ function Footer() {
 export default Footer;
 
 //#region Style object
-let Style = {
-  div_style: {
-    backgroundColor: "Gray",
-    height: "40vh",
-    width: "45vh",
-    borderRadius: "20px",
-    margin: "0px 10px 0px 10px",
-  },
-  main_style: {
-    display: "flex",
-    flexDirection: "row",
-    // height: "30vh",
-    padding: "10px",
-    justifyContent: "space-around",
-    borderTop: "3px solid black",
-  },
-};
+
 //#endregion
