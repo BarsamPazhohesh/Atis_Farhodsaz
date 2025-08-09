@@ -23,7 +23,7 @@ function MainPage() {
             style={{ margin: "0px", fontWeight: "bold" }}
             className="w3-center w3-xxxlarge"
           >
-            سامانه آتیس نوبهار
+            سامانه آتیس فرهود ساز
           </p>
           <p
             style={{ margin: "0px" }}
@@ -38,7 +38,7 @@ function MainPage() {
             style={{ margin: "0px", fontWeight: "bold", fontFamily: "Georgia" }}
             className="w3-center w3-xxxlarge"
           >
-            ATIS Nobahar
+            ATIS Farhood
           </p>
           <p
             style={{
